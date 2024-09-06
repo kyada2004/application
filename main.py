@@ -188,7 +188,7 @@ def handle_time_command(query):
 
 # Function to fetch weather information
 def fetch_weather(city):
-    api_key = "7d328d3002be2c7a0828b77b7f2c0de9"
+    api_key = "your_weather_api_key_add"
     url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
 
     try:
