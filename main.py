@@ -20,7 +20,7 @@ def say(text):
 # Initialize the Inference Client
 client = InferenceClient(
     "mistralai/Mistral-Nemo-Instruct-2407",
-    token="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",
+    token="your_huggingface_api_key_add",
 )
 
 # Function to handle voice command recognition
